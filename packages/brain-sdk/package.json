@@ -1,0 +1,8 @@
+{
+  "name": "@veridian/brain-sdk",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Typed client stub for the /api/v1/brain/* namespace exposed by compliance-tracker (Phase A of the Brain extraction). Methods are not yet wired to a real HTTP client -- see README.md at the repo root.",
+  "main": "src/index.ts",
+  "types": "src/index.ts"
+}
