@@ -1,5 +1,17 @@
 # veridian-brain
 
+> **Status check (added 2026-09-01):** this repo has had exactly one commit
+> since 2026-07-09 — 54 days of silence as of this note. Everything below
+> was independently re-verified against the current `compliance-tracker`
+> clone and is still factually accurate (the 5 named services and both
+> `/api/v1/brain/*` routes still exist at the paths cited below), so
+> nothing here is *wrong* — it's just unclear whether Phases B/C/D are
+> still intended, since this repo isn't mentioned in the more recent
+> R65 Part C/D/E planning. If the strangler-fig migration is still the
+> plan, fold this repo's roadmap into that planning; if it's been
+> superseded, mark this repo archived rather than leaving it ambiguous.
+
+
 **Status: scaffold only — Phase A of a 4-phase strangler-fig migration, not yet extracted.**
 
 This repo will eventually hold VERIDIAN AI OS's shared intelligence layer ("the Brain") — capability/asset registry, worker-agent registry, deterministic engine library, FDE, intent engine, knowledge graph, model router — with zero business logic, so every product repo (`compliance-tracker`, `projexa`, `veda-advisors`, future ones) becomes a thin app calling in over a versioned API instead of importing each other's code or duplicating capability logic.
